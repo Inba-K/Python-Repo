@@ -1,5 +1,5 @@
-a=str(input("What is you favorite food?"))
-if a=="Chana Bhatura":
-    print("You are cool!")
+num=int(input("Enter a number: "))
+if num>0 and (num&(num-1))==0 and (num&0xAAAAAAAA)==0:
+    print(num, "is a power of 4.")
 else:
-    print("You aren't cool...")
+    print(num, "isn't a power of 4.")
